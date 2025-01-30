@@ -1,0 +1,193 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Container for Content */
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease;
+}
+
+/* Header Section */
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.profile-img:hover {
+    transform: scale(1.1);
+}
+
+header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+header .title {
+    font-size: 20px;
+    color: #7f8c8d;
+}
+
+header .contact-info {
+    font-size: 16px;
+    color: #2980b9;
+}
+
+header .contact-info a {
+    text-decoration: none;
+    color: #2980b9;
+}
+
+header .contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* About Section */
+.about {
+    margin-bottom: 40px;
+    opacity: 0;
+    animation: fadeIn 1s ease forwards 0.5s;
+}
+
+.about h2 {
+    font-size: 24px;
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+.about p {
+    font-size: 16px;
+    color: #7f8c8d;
+}
+
+/* Skills Section */
+.skills {
+    margin-bottom: 40px;
+}
+
+.skills h2 {
+    font-size: 24px;
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+.skill-set {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill {
+    width: 45%;
+}
+
+.skill h3 {
+    font-size: 20px;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.skill ul {
+    list-style-type: none;
+}
+
+.skill ul li {
+    font-size: 16px;
+    color: #7f8c8d;
+    margin-bottom: 10px;
+}
+
+/* Experience Section */
+.experience {
+    margin-bottom: 40px;
+    opacity: 0;
+    animation: fadeIn 1s ease forwards 1s;
+}
+
+.experience h2 {
+    font-size: 24px;
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+.job {
+    margin-bottom: 30px;
+}
+
+.job h3 {
+    font-size: 20px;
+    color: #2c3e50;
+}
+
+.company {
+    font-size: 16px;
+    color: #7f8c8d;
+}
+
+.job ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+/* Languages Section */
+.languages {
+    margin-bottom: 40px;
+}
+
+.languages h2 {
+    font-size: 24px;
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+.languages ul {
+    list-style-type: none;
+}
+
+.languages ul li {
+    font-size: 16px;
+    color: #7f8c8d;
+}
+
+/* Footer Section */
+footer {
+    text-align: center;
+    font-size: 14px;
+    color: #7f8c8d;
+    margin-top: 40px;
+}
+
+/* Animation for fading in */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
